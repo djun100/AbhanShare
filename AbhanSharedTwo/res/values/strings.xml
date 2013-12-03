@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">AbhanShared</string>
+	<string name="received">Received:</string>
+	<string name="receive">Receive</string>
+</resources>

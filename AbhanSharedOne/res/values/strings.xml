@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">AbhanShared</string>
+	<string name="sent">Sent:</string>
+	<string name="hint">Enter Your Text</string>
+	<string name="send">Send</string>
+</resources>

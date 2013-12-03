@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@color/gray"
+	android:keepScreenOn="true" >
+	<TextView
+		android:id="@id/header"
+		android:layout_width="fill_parent"
+		android:layout_height="50dp"
+		android:layout_alignParentTop="true"
+		android:background="@color/ablue"
+		android:gravity="center"
+		android:singleLine="true"
+		android:text="@string/app_name"
+		android:textColor="@color/white"
+		android:textSize="23sp"
+		android:textStyle="bold" />
+	<LinearLayout
+		android:id="@id/linear_layout"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:background="@null"
+		android:orientation="vertical"
+		android:padding="10dp" >
+		<TextView
+			android:id="@id/txt_received"
+			android:layout_width="275dp"
+			android:layout_height="50dp"
+			android:background="@null"
+			android:gravity="center_vertical"
+			android:paddingLeft="5dp"
+			android:singleLine="true"
+			android:text="@string/received"
+			android:textColor="@color/darkslate"
+			android:textSize="18sp"
+			android:textStyle="normal" />
+		<Button
+			android:id="@id/btn_receive"
+			android:layout_width="275dp"
+			android:layout_height="50dp"
+			android:background="@drawable/button_selector"
+			android:singleLine="true"
+			android:text="@string/receive"
+			android:textColor="@color/button_text_selector"
+			android:textSize="20sp"
+			android:textStyle="bold" />
+	</LinearLayout>
+</RelativeLayout>

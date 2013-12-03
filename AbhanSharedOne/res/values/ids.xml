@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<item name="header" type="id"/>
+	<item name="linear_layout" type="id"/>
+	<item name="txt_received" type="id"/>
+	<item name="edt_userentered" type="id"/>
+	<item name="btn_send" type="id"/>
+</resources>
